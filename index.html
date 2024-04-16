@@ -1,0 +1,21 @@
+<html>
+	<head>
+		<title>User Feedback Form</title>
+		<link rel="stylesheet" href="userInputFormStyles.css">
+	</head>
+	<body>
+		<form onsubmit="return false;">
+			<div class="emailSection">
+				<p>Enter your email address: </p>
+				<input type="email" name="userEmail" class="emailField">
+			</div>
+			
+			<div class="feedbackSection">
+				<p>Can you give us a feedback about this website?</p>
+				<textarea name="comments" cols="40" rows="5">Enter your feedback here!</textarea>
+			</div>
+			
+			<button type="submit" name="submitButton" class="submitButton" onclick="location.href='thankYouPage.html'"> Submit! </button>
+		</form>
+	</body>
+</html>
